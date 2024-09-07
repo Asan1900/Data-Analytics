@@ -18,26 +18,23 @@ This project focuses on data analytics using both R and Python to perform data p
 ## Project Structure
 
 ```plaintext
-data-analytics-project/
+Data-Analytics/
 │
-├── data/
-│   ├── raw/                  # Raw, unprocessed data
-│   ├── processed/            # Cleaned and processed data
-│   └── external/             # External datasets
+├── BooKRecommendationSystem/  # Directory for Book Recommendation System project
 │
-├── notebooks/
-│   ├── R/                    # Jupyter notebooks using R
-│   └── Python/               # Jupyter notebooks using Python
+├── Covid-19/                  # Directory for COVID-19 data analysis project
 │
-├── src/
-│   ├── R/                    # R scripts
-│   └── Python/               # Python scripts
+├── FloodPredictionModel/      # Directory for Flood Prediction Model project
 │
-├── reports/
-│   └── figures/              # Generated visualizations
+├── GlobalTerrorismDA/         # Directory for Global Terrorism Data analysis project
+│   ├── data/
+│   ├── img/
+│   ├── GTDA.ipynb
+│   ├── README.md                 # Project documentation
+│   └── requirements.txt          # Python dependencies
 │
-├── README.md                 # Project documentation
-└── requirements.txt          # Python dependencies
+├── LICENSE                      # Project license
+└── README.md                    # Project overview
 ```
 
 ## Requirements
@@ -48,7 +45,8 @@ data-analytics-project/
 - numpy
 - matplotlib
 - seaborn
-- scikit-learn
+- geopandas
+- contextily
 - jupyter
 
 ### R Packages
@@ -77,40 +75,15 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Asan1900/Data-Analytics.git
-cd data-analytics-project
+cd Data-Analytics
 ```
 
-Ensure you have the necessary Python and R environments set up.
-
-## Usage
-
-### Python
-
-You can run Python notebooks or scripts by navigating to the `notebooks/Python/` or `src/Python/` directory and executing the files.
-
-Example:
-
-```bash
-jupyter notebook notebooks/Python/data_analysis.ipynb
-```
-
-### R
-
-R scripts and notebooks are located in the `notebooks/R/` and `src/R/` directories.
-
-Example:
-
-```r
-# In R console
-source('src/R/data_cleaning.R')
-```
 
 ## Data Sources
 
 This project uses datasets from the following sources:
 
-1. [Source 1](https://example.com)
-2. [Source 2](https://example.com)
+1. [Source 1](https://www.kaggle.com/datasets/)
 
 Please ensure that you have the necessary access to these datasets before running the project.
 
@@ -128,6 +101,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
