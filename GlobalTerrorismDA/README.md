@@ -4,7 +4,7 @@ This project involves visualizing attack locations of the five most active group
 
 ## Project Structure
 
-- `GTDA.ipynb`: Python script for loading data, creating visualizations, and saving the output.
+- `GTDA.ipynb/`: Python script for loading data, creating visualizations, and saving the output.
 - `data/`: Directory containing data files (e.g., shapefiles and CSV files with location and attack data).
 - `img/`: Directory for saving generated images from the visualization script.
 
